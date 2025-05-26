@@ -129,7 +129,7 @@ void init_enemy(Enemy *enemy, Vector2 position, Vector2 velocity, int health, in
     enemy->size = size;
     enemy->color = color;                          // Assign color
     enemy->active = true;                          // Mark as active
-    enemy->respawn_timer = GetRandomValue(10, 20); // Random respawn timer (5 to 20 seconds)
+    enemy->respawn_timer = GetRandomValue(10, 20); // Random respawn timer (5 to 20 seconds!)
 }
 
 void init_enemy_bullets()
